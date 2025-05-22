@@ -9,7 +9,7 @@ const ENV = import.meta.env.MODE || 'development';
 const config = {
   // API configuration
   api: {
-    baseUrl: 'stream-api.pymelea.tech/api',
+    baseUrl: 'https://api-stream.pymelea.tech',
     timeout: 10000, // 10 seconds
     retries: 2,
   },
@@ -47,7 +47,7 @@ const envConfig = {
   },
   production: {
     api: {
-      baseUrl: 'http://api-stream.pymelea.tech', // Use relative URL in production
+      baseUrl: 'https://api-stream.pymelea.tech', // Use relative URL in production
     },
     debug: false,
   },
