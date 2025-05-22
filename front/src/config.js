@@ -47,7 +47,7 @@ const envConfig = {
   },
   production: {
     api: {
-      baseUrl: 'stream-api.pymelea.tech/api', // Use relative URL in production
+      baseUrl: '/api', // Use relative URL in production
     },
     debug: false,
   },
