@@ -5,7 +5,7 @@
 // API endpoints
 export const API_ENDPOINTS = {
   VIDEOS: '/videos/',
-  VIDEO: (id) => `/videos/${id}/`,
+  VIDEO: (id) => `/videos/${id}`,
   VIDEO_STREAM: (id) => `/videos/${id}/stream/`,
   PLAYLISTS: '/playlists/',
   PLAYLIST: (id) => `/playlists/${id}`,
